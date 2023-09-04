@@ -1,0 +1,26 @@
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #dddddd;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  text-transform: capitalize;
+}
+
+tr:nth-child(odd) {
+  background-color: #cb3636;
+}
+
+/* Media  */
+  @media screen and (max-width: 700px) {
+    table {
+      font-size: 12px;
+    }
+  }
+  
